@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\FakeScript.cs" />
+    <Compile Include="Assets\Scripts\NewFakeScript.cs" />
     <Compile Include="Assets\Scripts\OpponentController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
