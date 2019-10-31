@@ -63,12 +63,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\NewFakeScript.cs" />
     <Compile Include="Assets\Scripts\OpponentController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
@@ -87,6 +89,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>E:/Unity/TrackAndField/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
