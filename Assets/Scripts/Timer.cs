@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -42,7 +43,8 @@ public class Timer : MonoBehaviour
     {
         if (PlayerController.instance.finished == true && OpponentController.instance.finished == true)
         {
-
+            nextScene();
+            //Move to the next Scene after both racers are finished!
         }
         else
         {
@@ -64,5 +66,13 @@ public class Timer : MonoBehaviour
     public void opponentHitHurdle()
     {
         opponentPenalty += penalty;
+    }
+
+    public void nextScene()
+    {
+        
+        //WaitForSeconds(5);
+        SceneManager.LoadScene("WinningScene", LoadSceneMode.Single);
+        
     }
 }
